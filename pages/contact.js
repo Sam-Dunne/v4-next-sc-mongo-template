@@ -16,7 +16,7 @@ const FormItem = styled.div`
 
 const ContactForm = styled.form`  
     margin: 20px auto;
-    width: 18em;
+    width: 20em;
     padding: 1em 2em;
     border: 2px solid gray;
     border-radius:15px;
