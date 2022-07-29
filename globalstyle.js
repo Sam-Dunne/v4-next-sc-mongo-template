@@ -29,7 +29,7 @@ export const Container = styled.main`
     padding: 60px 20px;
     min-height: 80vh;
     position: relative;
-    background-color: grey;
+    background-color: #fafafa;
     
 
     @media ${device.tablet} {

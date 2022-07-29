@@ -62,7 +62,7 @@ const Navbar = ({ isOpen, mobile }) => {
                         <MobileBurger href='' onClick={handleNavClick} ><GiHamburger ></GiHamburger></MobileBurger>
                         <NonHomeViewLinks>
 
-                            <Link href='/projects' passHref>
+                            <Link href='/other' passHref>
                                 <NavLink>Projects</NavLink>
                             </Link>
                             <Link href='/cv' passHref>
