@@ -1,8 +1,11 @@
 import Head from "next/head";
 import { Container,  HeroH1, H2 } from "../globalstyle";
 import { ArticleList } from "../components/ArticleList/ArticleList";
+// import {handler} from './api/airbnb'
+
 
 export default function Home({articles}) {
+  // handler()
   // console.log(articles)
   return (
     <>

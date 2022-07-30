@@ -1,9 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { Container } from '../../../globalstyle'
-import { ArticleItem } from '../../../components/ArticleItem/ArticleItem'
 import { useRouter } from 'next/router'
-import { FaArrowAltCircleDown } from 'react-icons/fa'
 
 const article = ({ article }) => {
     const router = useRouter();

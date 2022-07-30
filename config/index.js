@@ -6,5 +6,8 @@ export default {
         apiKey: process.env.MAILGUN_API_KEY,
         domain: process.env.MAILGUN_DOMAIN,
         toEmail: process.env.MAILGUN_TO_EMAIL
+    },
+    mongo: {
+        mongoURI: process.env.MONGO_URI
     }
 }
